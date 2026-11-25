@@ -1,0 +1,27 @@
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+/bin/
+/src/bin/
+
+go.work
+go.work.sum
+# vendor/
+
+.env
+.env.*
+!.env.example
+
+/docker/postgres-data/
+/docker/postgres_data/
+
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
